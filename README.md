@@ -217,9 +217,11 @@ By this point your projects structure should look like
 >>>*index.js*
 >>
 >>*db.js*
+>>
 >>*index.js*
 >
 >*.babelrc (hidden file)*
+>
 >*packacge.json*
 
 ## Adding data POST requests in Node
@@ -327,3 +329,72 @@ In order to add endpoints for update and remove add the following:
 			res.json({ message: "Restaurant Removed" });
 		});
 	});
+
+## User Authentication
+
+For user authentication we will be using passport.  First install the dependencies with
+`npm install --save express-jwt jsonwebtoken passport passport-local passport-local-mongoose`
+
+Then create an account model with `touch src/model/account.js` and add:
+
+	import mongoose from 'mongoose';
+	import passportLocalMongoose from 'passport-local-mongoose';
+
+	const Schema = mongoose.Schema;
+
+	let Account = new Schema({
+		email: {
+			type: String,
+			required: true
+		}
+		password: {
+			type: String,
+			required: true
+		}
+	});
+
+	Account.plugin(passportLocalMongoose);
+	module.exports = mongoose.model('Account', Account);
+
+Also create a account controller `touch src/controller/account.js` and add:
+
+	import mongoose from 'mongoose';
+	import { Router } from 'express';
+	import Account from '../model/account';
+	import bodyParser from 'body-parser';
+	import passport from 'passport';
+	import config from '../config';
+
+	import { generateAccessToken, respond, authenticate } from '../middleware/authmiddleware';
+
+	export default({ config, db }) => {
+		let api = Router();
+
+
+		return api
+	}
+
+We will further flesh this out soon. 
+
+Add the following to the route/index.js file in the //	api routes v1 section
+
+	router.use('/account', account({ config, db }));
+	
+Then jump over to your main index file and add
+
+	//	passport config
+	app.use(passport.initialize());
+	let Account = require('./model/account');
+	passport.use(new LocalStrategy({
+		usernameField: 'email',
+		passwordField: 'password'
+	}, Account.authenticate()
+	));
+	passport.serializeUser(Account.serializeUser());
+	passport.deserializeUser(Account.deserializeUser());
+
+
+
+
+
+
