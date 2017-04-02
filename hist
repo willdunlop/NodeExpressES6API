@@ -1,0 +1,500 @@
+   39  cd ..
+   40  mkdir i3status
+   41  cp i3/i3status.conf i3status/config
+   42  cd i3status/
+   43  cat config
+   44  vim config
+   45  vim config
+   46  vim config
+   47  vim config
+   48  vim config
+   49  iftop
+   50  sudo iftop
+   51  wifi-menu
+   52  sudo wifi-menu
+   53  iftop
+   54  sudo iftop
+   55  sudo iftop
+   56  sudo iftop
+   57  sudo iftop
+   58  sudo pacman -Sc
+   59  ls /etc/ssh
+   60  sudo ls /etc/modprobe.d/
+   61  ls /sys/module/hid_apple/parameters/
+   62  ls /sys/module/hid_apple/
+   63  sudo cat /sys/module/hid_apple/parameters/fnmode
+   64  sudo tee /sys/module/hid_apple/parameters/fnmode <<< 2
+   65  lspci -v | grep -i audio
+   66  sudo pacman -S pulseaudio-alsa
+   67  sudo pacman -S vlc
+   68  pacgraph
+   69  sudo pacman -S pacgraph
+   70  sudo pacman -S qt4
+   71  sudo pacman -S vim-gtk
+   72  sudo pacman -R vim
+   73  sudo pacman -S gvim
+   74  vim
+   75  alsamixer
+   76  sudo pacman -S pavucontrol
+   77  cd projects/cube/
+   78  git add .
+   79  git commit -m "there are now 2 cubes..."
+   80  git config --global user.email "william.dunlop.1993@gmail.com"
+   81  git config --global user.name "William Dunlop"
+   82  git commit -m "there are now 2 cubes..."
+   83  git push -u origin master
+   84  git add .
+   85  git commit -m "the cubes are aligned, hover transitions between animations needs work"
+   86  git push -u origin master
+   87  sudo cp /etc/i3status.conf ~/.config/i3/i3status.conf
+   88  cd .config/i3status/
+   89  vim config
+   90  vim config
+   91  cd ..
+   92  vim i3/config
+   93  sudo pacman -Ss i3-gaps
+   94  pacman -Ss i3-gaps
+   95  ls
+   96  mcdir cloned
+   97  mkdir cloned
+   98  cd cloned/
+   99  wget
+  100  sudo pacman -S wget
+  101  git clone https://aur.archlinux.org/packages/i3-gaps-git/
+  102  git clone  https://aur.archlinux.org/i3-gaps-git.git
+  103  cd i3-gaps-git/
+  104  ls
+  105  makepkg -s
+  106   ls
+  107  sudo pacman -U i3-gaps-git-4.13-2-x86_64.pkg.tar.xz
+  108  cd projects/cube/
+  109  atom .
+  110  npm start
+  111  npm start
+  112  npm start
+  113  nmap 54.230.141.112
+  114  nmap 239.255.255.250
+  115  nmap 198.232.127.32
+  116  nmap 54.230.141.134
+  117  nmap yahoo.com
+  118  cd Downloads/
+  119  ls
+  120  tar xvjf waterfox-52.0.1.en-US.linux-x86_64.tar.bz2
+  121  ls
+  122  ls ~
+  123  mkdi ~/programs
+  124  mkdir ~/programs
+  125  mv waterfox/ ~/programs/
+  126  ls
+  127  cd ~/programs/
+  128  ls
+  129  cd waterfox/
+  130  ls
+  131  ./waterfox
+  132  ./waterfox
+  133  ./waterfox
+  134  cd ~/programs/
+  135  ls
+  136  cd waterfox/
+  137  ls
+  138  ./waterfox
+  139  cd ~/.config/i3
+  140  vim config
+  141  vim config
+  142  vim config
+  143  cd  ~
+  144  vim .config/i3/config
+  145  cd .config/i3/config
+  146  vim .config/i3/config
+  147  cd cloned/
+  148  git clone https://aur.archlinux.org/package-query.git
+  149  cd package-query/
+  150  makepkg -si
+  151  cd ..
+  152  git clone https://aur.archlinux.org/yaourt.git
+  153  cd yaourt
+  154  makepkg -sri
+  155  cd ..
+  156  ls
+  157  yaourt
+  158  yaourt -h
+  159  yaourt jdk
+  160  cd cloned/
+  161  git clone https://aur.archlinux.org/packages/adapta-gtk-theme/
+  162  git clone https://aur.archlinux.org/adapta-gtk-theme.git
+  163  cd adapta-gtk-theme/
+  164  ls
+  165  makepkg -si
+  166  cd ~
+  167  cd .config/gtk-3.0/
+  168  ls -a
+  169  ls /etc/gtk-3.0/
+  170  cat /etc/gtk-3.0/im-multipress.conf
+  171  ls /etc/gtk-2.0/
+  172  cd ~
+  173  ls -a
+  174  ls /etc/gtk-2.0/
+  175  ls /etc/gtk-3.0/
+  176  echo $XDG_CONFIG_HOME
+  177  echo $XDG
+  178  ls
+  179  ls -a
+  180  ls .local/
+  181  ls .local/share/
+  182  find
+  183  find -inmae gtkrc
+  184  find -iname gtkrc
+  185  cd projects/cube/
+  186  atom .
+  187  npm start
+  188  git add .
+  189  git commit -m "minor changes"
+  190  git push -u origin master
+  191  atom .
+  192  ls
+  193  screenfetch
+  194  clear
+  195  screenfetch
+  196  sudo pacman -Syu
+  197  alsamixer
+  198  sudo pacman -S wine
+  199  sudo pacman -Ss wine
+  200  sudo pacman -S wine
+  201  yaourt bin32-wine
+  202  yaourt wine
+  203  sudo pacman -S wine
+  204  sudo vim /etc/pacman.conf
+  205  sudo pacman -Sy
+  206  sudo pacman -S wine
+  207  fdisk -l
+  208  sudo fdisk -l
+  209  ls /mnt
+  210  ls /
+  211  mount /dev/sdc /mnt
+  212  sudo mount /dev/sdc /mnt
+  213  sudo mount /dev/sdc1 /mnt
+  214  cd /mnt
+  215  ls
+  216  cd Dynat-AL/
+  217  ls
+  218  mkdir ~/games
+  219  cp WoW/ ~/games/WoW
+  220  ls ~/games/
+  221  cp WoW ~/games/WoW
+  222  cp man
+  223  man cp
+  224  cp -r WoW/ ~/games/WoW
+  225  ls ~/games
+  226  rm -rf ~/games/WoW
+  227  ls ~/games
+  228  cp -r -v WoW/ ~/games/WoW
+  229  cd ~
+  230  umount /mnt
+  231  sudo umount /mnt
+  232  cd games/WoW/
+  233  ls
+  234  wine WoW.exe
+  235  wine WoW.exe
+  236  cd ~
+  237  ls -a
+  238  ls .config/
+  239  cd .config/gtk-3.0/
+  240  ls
+  241  echo $GTK2_RC_FILES
+  242  sudo iftop
+  243  mn cp
+  244  man cp
+  245  htop
+  246  atom
+  247  dynat
+  248  startx
+  249  clear
+  250  cd cloned/
+  251  ls
+  252  cd i3-gaps-git/
+  253  ls
+  254  sudo pacman -U i3-gaps-git-4.13-2-x86_64.pkg.tar.xz
+  255  startx
+  256  startx
+  257  cd ~
+  258  startx
+  259  startx
+  260  find gtkrc
+  261  find -iname gtkrc
+  262  cd /
+  263  find -iname gtkrc
+  264  sudo find -iname gtkrc
+  265  cat /usr/share/gtk-2.0/gtkrc
+  266  cat /usr/share/themes/Adapta/gtk-2.0/gtkrc
+  267  cat /usr/share/themes/Adapta/xfce-notify-4.0/gtkrc
+  268  sudo vim /usr/share/gtk-2.0/gtkrc
+  269  reboot
+  270  sudo iftop
+  271  htop
+  272  wifi-menu
+  273  sudo wifi-menu
+  274  startx
+  275  journalctl -xe
+  276  systemctl status netctl@wlp3s0\x2dOPTUSV9B6DA0.service
+  277  sudo systemctl disable netctl@wlp3s0\x2dOPTUSV9B6DA0.service
+  278  cd /
+  279  sudo find -iname gtkrc
+  280  cat /usr/share/gtk-2.0/gtkrc
+  281  sudo pacman -S gnome-tweak-tool
+  282  gnome-tweak-tool
+  283  sudo pacman -R gnome-tweak-tool
+  284  sudo pacman -S gnome-setting-daemon
+  285  sudo pacman -S gnome-settings-daemon
+  286  gnome-settings-daemon
+  287  sudo pacman -R colord-1.3.4-1  geoclue2-2.4.5-1  geocode-glib-3.20.1+1+ga646012-1
+  288                glib-networking-2.50.0-1  gnome-desktop-1:3.22.2-1  gnome-settings-daemon-3.22.2-1
+  289                gtk3-print-backends-3.22.10-1  iso-codes-3.74-1  jansson-2.10-1  libgusb-0.2.9-2
+  290                libgweather-3.20.4-1  libimobiledevice-1.2.0-4  libmm-glib-1.6.4-1  libnm-1.6.2-3
+  291                libplist-1.12-6  libsoup-2.56.0-1  libusbmuxd-1.0.10-1  rest-0.8.0-2
+  292                upower-0.99.4+12+g402640b-1  usbmuxd-1.1.0-2  gnome-tweak-tool-3.22.0+3+g2f9d966-1
+  293  sudo pacman -S gnome-shell
+  294  gnome-tweak-tool
+  295  gnome-shell
+  296  sudo pacman -S gnome
+  297  gnome-tweak-tol
+  298  gnome-tweak-tool
+  299  gnome-shell
+  300  sudo gnome-shell
+  301  reboot
+  302  cd cloned/
+  303  ls
+  304  git clone https://aur.archlinux.org/gnome-terminal-transparency.git
+  305  cd gnome-terminal-transparency/
+  306  ls
+  307  makepkg -si
+  308  wifi-menu
+  309  sudo wifi-menu
+  310  htop
+  311  curl -L get.rvm.io > rvm-install
+  312  ls
+  313  bash < ./rvm-install
+  314  ls -a
+  315  vim .bashrc
+  316  vim .bashrc
+  317  startx
+  318  rvm
+  319  type rvm | head -n1
+  320  rvm notes
+  321  rvm list known
+  322  rvm install 2.4
+  323  ruby -v
+  324  erb
+  325  irb
+  326  reboot
+  327  cd projects/cube/
+  328  git add .
+  329  git commit -m "created the 'Term' component"
+  330  git push -u origin master
+  331  cd projects/cube/
+  332  atom .
+  333  cd ~/.config/i3/config
+  334  cd ~/.config/i3/
+  335  vim config
+  336  cd ~/projects/cube/
+  337  npm start
+  338  npm start
+  339  npm start
+  340  npm start
+  341  npm start
+  342  npm start
+  343  npm start
+  344  npm start
+  345  npm start
+  346  npm start
+  347  screenfetch
+  348  cd /sys/module/hid_apple/
+  349  ls
+  350  cd parameters/
+  351  ls
+  352  cat fnmode
+  353  sudo tee fnmode <<< 2
+  354  ~alsamixer
+  355  alsamixer
+  356  sudo iftop
+  357  sudo iftop
+  358  sudo iftop
+  359  sudo iftop
+  360  htop
+  361  ping 8.8.8.8
+  362  sudo wifi-menu
+  363  ping 8.8.8.8
+  364  sudo iftop
+  365  sudo iftop
+  366  sudo iftop
+  367  sudo iftop
+  368  sudo iftop
+  369  sudo iftop
+  370  sudo iftop
+  371  top
+  372  cd projects/cube/
+  373  npm start
+  374  cd projects/cube/
+  375  atom .
+  376  git add .
+  377  git commit -m "cube"
+  378  git push -u origin master
+  379  mkdir bin
+  380  vim .bashrc
+  381  source .bashrc
+  382  ruby -v
+  383  rvm
+  384  ls
+  385  ls -a
+  386  cat .profile
+  387  cd bin/
+  388  ls
+  389  touch test
+  390  vim test
+  391  source .bashrc
+  392  cd ..
+  393  source .bashrc
+  394  test
+  395  test
+  396  test
+  397  vim bin/test
+  398  echo "dd"
+  399  test
+  400  cd bin
+  401  chmod +x test
+  402  test
+  403  vim bin/test
+  404  ls
+  405  test
+  406  cat test
+  407  ./test
+  408  cd ..
+  409  test
+  410  cd bin
+  411  rm test
+  412  touch tst
+  413  tst
+  414  vim tst
+  415  cd ..
+  416  tst
+  417  cd bin
+  418  chmod +x tst
+  419  ls
+  420  cd ..
+  421  tst
+  422  test
+  423  touch ajs.js
+  424  vim ajs.js
+  425  node ajs.js
+  426  rm ajs.js
+  427  sudo pacman -Ss zeal
+  428  sudo pacman -S zeal
+  429  nvm\
+  430  nvm
+  431  sudo wifi-menu
+  432  htop
+  433  netctl
+  434  netctl status
+  435  netctl list
+  436  netctl status wlp3s0-OPTUSV9B6DA0
+  437  netctl restart wlp3s0-OPTUSV9B6DA0
+  438  systemctl status "netctl@wlp3s0\\x2dOPTUSV9B6DA0.service
+  439  "
+  440  systemctl enable netctl@wlp3s0\\x2dOPTUSV9B6DA0.service
+  441  systemctl status netctl@wlp3s0\\x2dOPTUSV9B6DA0.service
+  442  netctl list
+  443  netctl status   wlp3s0-OPTUSV9B6DA0
+  444  netctl status wlp3s0-OPTUSV9B6DA0
+  445  netctl
+  446  netctl start wlp3s0-OPTUSV9B6DA0
+  447  sudo netctl start wlp3s0-OPTUSV9B6DA0
+  448  sudo netctl status wlp3s0-OPTUSV9B6DA0
+  449  netctl
+  450  sudo netctl status wlp3s0-OPTUSV9B6DA0
+  451  ping 8.8.8.8
+  452  sudo kill 13870
+  453  ps -e | grep atom
+  454  mongo
+  455  sudo pacman -S mongodb
+  456  systemd start mongodb.service
+  457  systemctl start mongodb.service
+  458  sudo systemctl start mongodb.service
+  459  systemctl start mongodb.service
+  460  systemctl status mongodb.service
+  461  mongo
+  462  ls
+  463  cd projects/
+  464  ls
+  465  mkdir node_backend
+  466  ls
+  467  cd node_backend/
+  468  npm init
+  469  ls
+  470  cat package.json
+  471  vim package.json
+  472  vim index.js
+  473  atom .
+  474  cd ..
+  475  cd node_backend/
+  476  ls
+  477  rm package.json
+  478  npm init
+  479  npm install --save express body-parser mongoose
+  480  touch server.js
+  481  ls
+  482  rm package.json server.js
+  483  rm -rf node_modules/
+  484  ls
+  485  cd ..
+  486  rmdir node_backend/
+  487  mkdir restful_API
+  488  cd restful_API/
+  489  atom .
+  490  atom .
+  491  npm init
+  492  atom .
+  493  atom .
+  494  ls
+  495  atom .
+  496  reboot
+  497  screenfetch
+  498   htop
+  499   htop
+  500  cd /etc/systemd/system
+  501  ls
+  502  ls getty.target.wants/
+  503  ls multi-user.target.wants/
+  504  cd multi-user.target.wants/
+  505  ls
+  506  cat netctl-auto\@wlp3s0-OPTUSV9B6DA0.service
+  507  sudo rm netctl-auto\@wlp3s0-OPTUSV9B6DA0.service
+  508  ls
+  509  cd ~
+  510  cd projects/restful_API/
+  511  atom .
+  512  npm install --save express mongoose body-parser
+  513  npm install --save-dev nodemon eslint babel-cli babel-core babel-eslint babel-preset-es2015 babel-preset-stage-0
+  514  touch .babelrc
+  515  mkdir src
+  516  ls
+  517  ls -a
+  518  touch src/app.js
+  519  npm run dev
+  520  npm run build
+  521  npm run lint
+  522  npm run prestart
+  523  npm run dev
+  524  touch hist
+  525  history >> hist
+  526  rm hist
+  527  ping 8.8.8.8
+  528  npm run dev
+  529  npm run dev
+    mkdir src/controller
+    touch src/restaurant.js
+    rm src/restaurant.js
+    touch src/controller/restaurant.js
+    mkdir src/model
+    touch src/model/restaurant.js
+    npm run dev
+    touch hist
+    history >> hist
